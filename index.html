@@ -7,7 +7,37 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Email Subscribe</title>
   </head>
-  <body>
-    
+  <body class="bg-zinc-700">
+    <!-- ========== Start Container ========== -->
+    <div class="container h-screen flex justify-center items-center mx-auto">
+      <!-- ========== Start Box ========== -->
+      <div class="box p-2 rounded-2xl bg-zinc-800 flex w-[800px] h-[300px]">
+        <!-- ========== Start Image Side ========== -->
+        <div class="img">
+          <img class="hover:rounded-r-2xl hover:scale-105 transition-all duration-400
+          h-full rounded-l-2xl" src="./images/image.jpg" alt="">
+        </div>
+        <!-- ========== End Image Side ========== -->
+
+        <!-- ========== Start Text Side ========== -->
+        <div class="px-14 flex flex-col justify-center gap-3">
+          <!-- Title -->
+          <h2 class="text-white text-2xl font-medium">Get diet and fitness tips in your inbox</h2>
+          <!-- Description -->
+          <p class="text-white w-96 py-2">Eat better and exercise better. Sign up for the Diet&Fitness nesletter.</p>
+          <!-- Form -->
+          <div class="flex gap-3">
+            <!-- Email input -->
+            <input class="w-full text-white pl-6 bg-zinc-800 border focus-visible:outline-none border-zinc-600 rounded" type="text" placeholder="Enter your email address">
+            <!-- Button -->
+            <button class="hover:bg-lime-700 hover:text-white transition duration-500
+            bg-lime-500 text-black text-sm px-6 py-[14px] rounded-lg">Subscribe</button>
+          </div>
+        </div>
+        <!-- ========== End Text Side ========== -->
+      </div>
+      <!-- ========== End Box ========== -->
+    </div>
+    <!-- ========== End Container ========== -->
   </body>
 </html>
